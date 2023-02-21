@@ -1,0 +1,40 @@
+.match-card {
+  transition: box-shadow 0.3s;
+  width: 500px;
+  height: 200px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-card:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.match-card.selected {
+  background: blue;
+}
+
+.match-card.missed {
+  background: red;
+}
+
+.match-card.matched {
+  background: green;
+}
+
+.lost {
+  color: red;
+  font-size: xx-large;
+}
+
+.winner {
+  color: green;
+  font-size: xx-large;
+}
